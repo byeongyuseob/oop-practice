@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddde258d-7059-46d9-9a0d-70e55a05efc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/AdditionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/DivisionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/MultiplicationOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/NewArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/PositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/SubtractionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PositiveNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GradeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GradeCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/AdditionOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/DivisionOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/MultiplicationOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/NewArithmeticOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/PositiveNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/SubtractionOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PositiveNumberTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GradeCalculatorTest.calculateGradeTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -91,23 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.calculate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
-      <option name="METHOD_NAME" value="additionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.calculateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +106,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculateExceptionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CourseTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeCalculatorTest.calculateGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GradeCalculatorTest" />
+      <option name="METHOD_NAME" value="calculateGradeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeCalculatorTest.calculateGradeTest" />
+        <item itemvalue="JUnit.CourseTest.createTest" />
         <item itemvalue="JUnit.PositiveNumberTest.positiveNumberTest" />
         <item itemvalue="JUnit.PositiveNumberTest.positiveNumberTest" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
-        <item itemvalue="JUnit.CalculatorTest.additionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +196,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663604190907</updated>
       <workItem from="1663604193762" duration="5765000" />
-      <workItem from="1663744847834" duration="8962000" />
+      <workItem from="1663744847834" duration="13138000" />
+      <workItem from="1663852568265" duration="6984000" />
     </task>
     <servers />
   </component>
@@ -207,6 +214,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="multipliedCreditAndCourseGrade" />
+        <watch expression="totalCompletedCredit" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
